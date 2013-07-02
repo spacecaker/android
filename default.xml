@@ -320,6 +320,12 @@
   <project groups="default" name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel" remote="aosp" revision="jb-dev" />
   <project groups="default" name="platform/prebuilts/sdk" path="prebuilts/sdk" remote="aosp" revision="jb-dev" />
 
+  <!--SWING-->
+  <project path="device/acer/swing" name="Vachounette/acer_s500_cm10_device_tree" revision="master" />
+  <project path="vendor/acer/swing" name="Vachounette/acer_s500_cm10_vendor" revision="master" />
+  <project path="kernel/acer/swing" name="Vachounette/kernel_s500_cm10" revision="master" />
+  <project path="device/acer/swing/ramdisk" name="Vachounette/acer_s500_Cm10_ramdisk" revision="master" />
+  
   <!-- AOKP -->
   <project groups="default" name="AOKP/packages_apps_ROMControl" path="packages/apps/ROMControl" revision="3627e7af26f4c8174744d80827f7dc1ab13647e3" />
   <project groups="default" name="AOKP/packages_apps_DeskClock" path="packages/apps/DeskClock" revision="jb"/>
